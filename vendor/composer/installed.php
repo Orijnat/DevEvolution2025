@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'techcell/projeto_dev-evolution',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'olive/dev-evolution2025',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '3c9832fd7ab86da2f71be617d987f08618e631cd',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'techcell/projeto_dev-evolution' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+        'olive/dev-evolution2025' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '3c9832fd7ab86da2f71be617d987f08618e631cd',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

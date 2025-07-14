@@ -1,8 +1,8 @@
 {
-    "name": "techcell/projeto_dev-evolution",
+    "name": "olive/dev-evolution2025",
     "autoload": {
         "psr-4": {
-            "Techcell\\ProjetoDevEvolution\\": "src/"
+            "Olive\\DevEvolution2025\\": "src/"
         }
     },
     "require": {}

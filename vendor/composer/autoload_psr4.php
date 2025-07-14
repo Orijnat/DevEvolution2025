@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Techcell\\ProjetoDevEvolution\\' => array($baseDir . '/src'),
+    'Olive\\DevEvolution2025\\' => array($baseDir . '/src'),
 );
