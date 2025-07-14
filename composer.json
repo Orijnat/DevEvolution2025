@@ -1,8 +1,8 @@
 {
-    "name": "olive/dev-evolution2025",
+    "name": "techcell/dev-evolution2025",
     "autoload": {
         "psr-4": {
-            "Olive\\DevEvolution2025\\": "src/"
+            "App\\": "src/"
         }
     },
     "require": {}
