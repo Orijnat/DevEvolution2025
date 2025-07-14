@@ -1,0 +1,9 @@
+{
+    "name": "techcell/projeto_dev-evolution",
+    "autoload": {
+        "psr-4": {
+            "Techcell\\ProjetoDevEvolution\\": "src/"
+        }
+    },
+    "require": {}
+}
