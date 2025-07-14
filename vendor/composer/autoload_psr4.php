@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Olive\\DevEvolution2025\\' => array($baseDir . '/src'),
+    'Techcell\\DevEvolution2025\\' => array($baseDir . '/src'),
 );
