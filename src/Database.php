@@ -21,7 +21,6 @@ class Database
         }
     }
 
-
     public function getConexao()
     {
         return $this->pdo;
