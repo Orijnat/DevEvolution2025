@@ -6,7 +6,7 @@ use App\Database;
 
 try {
     $db = new Database();
-    echo " Banco de dados criados com sucesso!";
+    echo " Banco de dados criado com sucesso!";
 } catch (Exception $e) {
     echo " Erro: " . $e->getMessage();
 }
