@@ -14,7 +14,7 @@ class Auth{
     }
 
     public function login(string $email, string $senha) {
-        $sql = "SELECT * FROM users WHERE email = :email";
+        $sql = "SELECT * FROM clientes WHERE email = :email";
         $stmt = $this->pdo->prepare($sql);
         $stmt->bindValue(':email', $email);
         $stmt->execute();
@@ -23,7 +23,10 @@ class Auth{
 
         if ($usuario && password_verify($senha, $usuario['senha'])) {
             session_start();
-            $_SESSION ['usuario'] = $usuario ['nome'];
+
+            $_SESSION['cliente'] = $usuario['nome'];
+            $_SESSION['cliente_id'] = $usuario['id'];
+
             return true;
         }
             return false;
