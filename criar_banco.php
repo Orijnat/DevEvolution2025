@@ -33,7 +33,7 @@ try {
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nome TEXT NOT NULL,
             email TEXT NOT NULL,
-            telefone TEXT,
+            senha TEXT,
             usuario_id INTEGER,
             FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
         );
