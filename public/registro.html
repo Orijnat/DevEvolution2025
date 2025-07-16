@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8" />
-    <title>Registro</title>
-    <link rel="stylesheet" href="registro.css" />
+    <title>Cadastro de Cliente</title>
 </head>
 <body>
-<h2>Registrar Usuário</h2>
-<form method="post" action="registro.php">
-    <input type="text" name="nome" placeholder="Nome completo" required />
-    <input type="email" name="email" placeholder="E-mail" required />
-    <input type="password" name="senha" placeholder="Senha" required />
-    <button type="submit">Registrar</button>
+<h1>Cadastro de Cliente</h1>
+<form action="registro.php" method="POST">
+    <label>Nome: <input type="text" name="nome" required /></label><br /><br />
+    <label>E-mail: <input type="email" name="email" required /></label><br /><br />
+    <label>Senha: <input type="password" name="senha" required /></label><br /><br />
+    <button type="submit">Cadastrar</button>
 </form>
 </body>
 </html>
