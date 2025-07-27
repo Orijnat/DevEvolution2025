@@ -20,4 +20,7 @@ class Cliente {
         $stmt->execute([$id_usuario]);
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+
+
 }
+

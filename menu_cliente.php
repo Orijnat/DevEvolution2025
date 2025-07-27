@@ -21,10 +21,9 @@ $nome = $_SESSION['nome'] ?? 'Cliente';
     <p class="lead">O que você deseja fazer?</p>
 
     <div class="d-grid gap-3 col-6 mx-auto mt-4">
-        <a href="produtos_cliente.php" class="btn btn-primary btn-lg">🛍 Ver Produtos e Comprar</a>
-        <a href="/views/lista_compras.php" class="btn btn-info btn-lg">📄 Minhas Compras</a>
-        <!-- Futuro: <a href="editar_cliente.php" class="btn btn-warning btn-lg">⚙️ Editar Meus Dados</a> -->
-        <a href="logout.php" class="btn btn-danger btn-lg">🚪 Sair</a>
+        <a href="produtos_cliente.php" class="btn btn-primary btn-lg"> Ver Produtos e Comprar</a>
+        <a href="/views/lista_compras.php" class="btn btn-info btn-lg"> Minhas Compras</a>
+        <a href="logout.php" class="btn btn-danger btn-lg"> Sair</a>
     </div>
 </div>
 </body>
