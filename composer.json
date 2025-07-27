@@ -2,7 +2,7 @@
     "name": "techcell/dev-evolution2025",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "clases/"
         }
     },
     "require": {}
