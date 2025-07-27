@@ -21,6 +21,7 @@ com controle de clientes, produtos compras desenvolvido em PHP orientado a objet
    php -S localhost:8000
 
 
+
 ### Diagrama Simples de Funcionamento
 
 [Usuário] --> (Login.php) --> [Autenticação via sessão]
@@ -103,6 +104,8 @@ Composer autoload
 
 
 ### detalhes
+
+ Comece a execucao pelo index.php
 
 para testes na parte do admin use o usuário
 
