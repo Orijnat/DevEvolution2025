@@ -9,6 +9,7 @@ com controle de clientes, produtos compras desenvolvido em PHP orientado a objet
 
 - PHP 8 ou superior instalado
 - Composer (para o autoload)
+- Navegador a escolha do usuario
 
 ### Passo a Passo
 
@@ -16,10 +17,15 @@ com controle de clientes, produtos compras desenvolvido em PHP orientado a objet
 
    ### composer install
 
+Para configurar o Banco de Dados execute o  arquivo DataBase.php na pasta classes.
+
+Isso irá criar o arquivo banco.sqlite com todas as tabelas necessárias.
+
 2. Inicie o servidor embutido do PHP
 
    php -S localhost:8000
 
+3. Execute o arquivo index.php.
 
 
 ### Diagrama Simples de Funcionamento
@@ -103,9 +109,7 @@ Composer autoload
 
 
 
-### detalhes
-
- Comece a execucao pelo index.php
+### Detalhes
 
 para testes na parte do admin use o usuário
 
