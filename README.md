@@ -12,9 +12,9 @@ com controle de clientes, produtos compras desenvolvido em PHP orientado a objet
 
 ### Passo a Passo
 
-1. ##Instale as dependências com o Composer
+1. Instale as dependências com o Composer
 
-   composer install
+   ### composer install
 
 2. Inicie o servidor embutido do PHP
 
