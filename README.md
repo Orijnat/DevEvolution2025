@@ -7,7 +7,7 @@ com controle de clientes, produtos compras desenvolvido em PHP orientado a objet
 
 ###  Pré-requisitos
 
-- PHP 7.4 ou superior instalado
+- PHP 8 ou superior instalado
 - Composer (para o autoload)
 
 ### Passo a Passo
